@@ -1,0 +1,298 @@
+.container {
+    margin-right: 1%;
+    margin-left: 1%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #A100D1;
+    background-color: #ffffff;
+    padding: 2%;
+    float: left;
+}
+
+.pictureScale {
+  
+    float: left;
+    margin-bottom: 1%;
+}
+
+
+body {
+  
+    background-color: #15D188;
+    
+}
+
+#buttonOne {
+    color: #A100D1;
+}
+
+.quote {
+    float: left;
+    color: #ffffff;
+   
+    font-size: 2.4rem;
+    font-family: 'Knewave', cursive;
+    padding: 1.5%;
+    width: 67%;
+    margin-left: 0%;
+    margin-right: 2%;
+    border-style: solid;
+    border-color: #b00802;
+    border-width: 2px;
+    font-family: 'Crete Round', serif;
+}
+
+img {
+    width: 100%;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #A100D1;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+.mainHeadings {
+    font-family: 'Short Stack', cursive;
+    padding: 1%;
+    padding-bottom: 3%;
+    font-size: 3rem;
+    text-align: center;
+    color: #078554;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: #078554;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: #078554;
+}
+
+.scriptHeadings {
+    font-family: 'Short Stack', cursive;
+    color: #078554;
+    padding: 3%;
+    margin-right: 1%;
+    background-color: #ffffff;
+}
+
+
+.nbHeadings {
+    font-family: 'Short Stack', cursive;
+    color: #078554;
+    padding: 3%;
+    margin-right: 1%;
+}
+.serifHeadings {
+    font-family: 'Merriweather', serif;
+    padding: 1%;
+  
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #A100D1;
+}x
+
+
+ul {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+li {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.yellowBackground {
+    background-color: #D1B675;
+
+}
+
+.threeBorder {
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #ffffff;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #ffffff;
+}
+
+
+.twoColLeft {
+  
+    float: left;
+    width: 45%;
+    padding: 1%;
+}
+
+.twoColRight {
+    margin-left: 1%;
+    float: left;
+    width: 45%;
+    padding: 1%;
+}
+
+.purpleBackground {
+    background-color: #078554;
+    padding: 3.5%;
+    margin-bottom: 3%;
+}
+
+
+.fullBackground {
+    float: left;
+    padding: 1%;
+}
+
+.stableWrapper {
+    width: 100%;
+ 
+    float: left;
+    padding-bottom: 1%;
+}
+
+.whiteText {
+    color: #ffffff;
+}
+
+.fullWidth {
+    width: 98%;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 1%;
+    float: left;
+}
+
+
+
+.twoThirdsColumn {
+    width: 66%;
+    margin-right: 1%;
+    
+    float: left;
+    margin-bottom: 1%;
+}
+
+.oneThirdColumn {
+    width: 33%;
+ 
+    float: left;
+    color: #000000;
+    margin-bottom: 1%;
+
+}
+
+#noheaderStyle {
+    color: #ffffff;
+    background-color: #F56747;
+    border-style: none;
+}
+
+.galleriesColumn {
+    border-style: dashed;
+    border-color: #690D85;
+    border-width: 2px;
+    color: #000000;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+#blacktext {
+    color: #000000;
+}
+
+#boxBorder {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D1B675;
+    margin-bottom: 2%;
+}
+
+#boxBorder2 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D1B675;
+    margin-bottom: 2%;
+}
+
+
+
+button {
+    width: 100%;
+    border-style: none;
+    padding: 1.5%;
+    font-family: 'Short Stack', cursive;
+    font-size: 1.9rem;
+    color: #2831A8;
+}
+
+.buttonHide {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #2831A8;
+    padding: 1%;
+    margin-bottom: 2%;
+   
+}
+a {
+    color: #8E20A8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1081px) {
+    .twoColLeft {
+        float: left;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .twoColRight {
+        margin-right: 1%;
+        float: left;
+        width: 100%;
+        margin-bottom: 2%;
+   
+    }
+
+    .container {
+        padding: 2.4%;
+        float: left;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+    .quote {
+        width: 96%;
+    }
+
+    .twoThirdsColumn {
+        width: 100%;
+        float: left;
+        margin-bottom: 2%;
+    }
+
+    .oneThirdColumn {
+        width: 100%;
+        float: left;
+        margin-bottom: 2%;
+
+    }
+
+}
